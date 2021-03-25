@@ -1,0 +1,144 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.login-form{
+	height: 100vh;
+	background:url(img/pizza.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 130px 0px;
+	
+
+}
+.form-inbox{
+	width: 90%;
+	display: flex;
+	height:550px;
+	margin: 130px auto;
+	
+
+
+	
+}
+.left{
+	flex-basis: 50%;
+	color:white;
+	background-color: rgb(135,62,35);
+    padding: 50px;
+	border-radius: 5px 0px 0px 5px;
+	
+}
+.left h2{
+	color:#edaa5e;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size:30px;
+}
+.left p{
+	margin-top: 40px;
+	color:#f6c762;
+}
+.left button{
+	background-color: white;
+	margin-top: 20px;
+	border-radius: 6px 0px;
+	padding: 15px;
+	border:none;
+	cursor: pointer;
+	color:rgba(0,0,0,3);
+	font-weight: bold;
+}
+.right{
+
+	flex-basis: 50%;
+	padding: 60px;
+	border-radius: 0px 5px 5px 0px;
+	margin-left: 56px;
+    background-color: white;
+   
+}
+.right h2{
+	color:rgb(135,62,35);
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size:30px;
+	text-align: start;
+	margin-bottom: 20px;
+}
+.names{
+	display: flex;
+	justify-content: space-between;
+}
+.fn label{
+	color:rgba(116,116,116,255);
+	display: block;
+	margin-bottom: 6px;
+}
+.names input{
+	padding: 10px 0px 10px 0px; 
+	margin-bottom: 6px;
+	
+	outline:none;
+	border:1px solid #ededed;
+}
+
+.email{
+	display: block;
+	margin-top: 20px;
+}
+.email label{
+	color:rgba(116,116,116,255);
+	display: block;
+	margin-bottom: 6px;
+
+}
+.email input{
+	width: 100%;
+	padding: 10px 0px 10px 0px; 
+	
+	outline:none;
+	border:1px solid #ededed;
+}
+
+.password{
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+.pass label{
+	color:rgba(116,116,116,255);
+	margin-bottom: 6px;
+	display: block;
+}
+.pass input{
+	padding: 10px 0px 10px 0px; 
+	margin-bottom: 6px;
+	
+	outline:none;
+	border:1px solid #ededed;
+
+}
+
+.checkbox{
+	margin-top: 20px;
+	display: inline-block;
+
+}
+.checkbox label a{
+	color:rgb(135,62,35);
+}
+.upper button{
+	margin-top: 20px;
+	background-color: rgb(135,62,35);
+	padding: 12px 20px 10px 20px;
+	color:white;
+	border:none;
+	border-radius: 6px 0px 6px 0px;
+	cursor:pointer;
+}
